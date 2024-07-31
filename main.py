@@ -25,7 +25,7 @@ for k, d in enumerate(dets):
 face_descriptor1 = facerec.compute_face_descriptor(img, shape)
 print(face_descriptor1)
 
-img = io.imread('grisha2.jpg')
+img = io.imread('grisha3.jpg')
 win2 = dlib.image_window()
 win2.clear_overlay()
 win2.set_image(img)
